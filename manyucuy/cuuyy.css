@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(5, 202, 252);
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 350px;
+    margin-top: 65px;
+    background-color: #ff0000;
+}
+
+table {
+    border-style: none;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    padding-left: 25px;
+    border: none;
+    font-size: 20px;
+}
+
+td {
+    border: none;
+}
+
+input[type=text] {
+    padding: 8px;
+    width: 250px;
+    border-style: solid;
+    border-color: #f8ec08;
+    font-size: 13px;
+}
+
+input[type=text]:disabled {
+    background-color: rgb(181, 180, 180);
+}
+
+table,
+th,
+td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ede505;
+}
